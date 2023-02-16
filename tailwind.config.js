@@ -9,7 +9,7 @@ module.exports = {
       'neutral': '#00171F',
       'blue': '#003459',
       'cyan': '#007EA7',
-      'sky': '#00A8E8'
+      'sky': '#00A8E8',
     },
     extend: {},
   },

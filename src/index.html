@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Tailwind -->
     <link rel="stylesheet" href="/dist/output.css" />
-    <title>Document</title>
+    <!-- Press Start Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Alegoncelis</title>
   </head>
   <body class="bg-neutral">
     <nav
-      class="p-3 rounded"
+      class="p-3 rounded mb-10"
     >
       <div
         class="container flex flex-wrap items-center justify-between mx-auto"
@@ -46,12 +50,11 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul
-            class="flex flex-col mt-4 rounded-lg bg-cyan md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
-          >
+            class="flex flex-col mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 text-md font-semibold md:border-0 md:bg-transparent">
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
                 aria-current="page"
                 >Inicio</a
               >
@@ -59,21 +62,21 @@
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
                 >Acerca de Mí</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
                 >Proyectos</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
                 >Contacto</a
               >
             </li>
@@ -81,13 +84,36 @@
         </div>
       </div>
     </nav>
-    <header class="container mx-auto">
-        <div class="text-4xl text-white py-10">
-            <h1>Hola, soy Alejandro González Celis</h1>
-        </div>
+    <header class="container p-5 mx-auto flex flex-col justify-between text-white">
+            <h1 class="mb-4 text-4xl font-bold">Hola,</h1>
+            <h2 class="mb-4 text-4xl font-semibold">Soy 
+              <span class="nombre text-sky"></span>
+              <span class="cursor text-sky"></span>
+            </h2>
+            <p class="mb-4 text-4xl font-semibold">Desarrollador FrontEnd</p>
+            <p class="mb-4 text-lg">Mi enfoque principal es crear interfaces de usuario intuitivas y atractivas que proporcionen una gran experiencia de usuario.</p>
+            <!-- Mover este parrafo a la sección de proyectos -->
+            <p class="mb-4 text-lg">En mi portafolio encontrarás proyectos que demuestran mis habilidades en HTML, CSS y JavaScript, así como en el uso de bibliotecas y frameworks como Vue, Bootstrap o Tailwind</p>
+            <!-- Mover este parrafo a la sección de contacto -->
+            <p class="mb-4 text-lg">Si estás buscando un desarrollador frontend apasionado por el diseño y la programación web, estoy seguro de que mis habilidades y conocimientos pueden ser de gran ayuda para tu equipo. ¡Espero tener la oportunidad de trabajar contigo!</p>
+            <div>
+              <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10">Contáctame</button>
+            </div>
 
     </header>
+    <!-- Scroll Icon (Eliminar CSS si es que no se deja) -->
 
+    <!-- <section class="example example--2 flex justify-center mt-10">
+      <span class="scroll-icon">
+        <span class="scroll-icon__dot"></span>
+      </span>
+    </section> -->
+
+    <section>
+
+    </section>
+    <!-- JavaScript -->
+    <script src="index.js"></script>
     <!-- Flowbite -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
