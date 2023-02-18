@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Tailwind -->
-    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="dist/output.css">
     <!-- Press Start Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,18 +15,10 @@
     <title>Alegoncelis</title>
   </head>
   <body class="bg-neutral">
-    <nav
-      class="p-3 rounded mb-10"
-    >
-      <div
-        class="container flex flex-wrap items-center justify-between mx-auto"
-      >
-        <a href="#" class="flex items-center">
-          <img
-            src="dist/img/logo.svg"
-            class="h-4 mr-3"
-            alt="Alegoncelis Logo"
-          />
+    <nav class="px-2 pt-6 sm:px-4 fixed w-full h-20 z-20 top-0 left-0 bg-neutral flex">
+      <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="#" class="flex items-center text-white text-3xl font-bold">
+          <span class="text-sky font-bold"><</span>Alegoncelis<span class="text-sky font-bold">/></span>
         </a>
         <button
           data-collapse-toggle="navbar-solid-bg"
@@ -37,7 +29,7 @@
         >
           <span class="sr-only">Abrir menú</span>
           <svg
-            class="w-6 h-6"
+            class="w-7 h-7"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -86,26 +78,26 @@
         </div>
       </div>
     </nav>
-    <header class="container p-5 mx-auto flex flex-col justify-between text-white">
-            <h1 class="mb-4 text-2xl md:text-6xl font-medium">Hola,</h1>
-            <h2 class="mb-4 text-2xl md:text-6xl font-medium">Soy  <span class="font-semibold">Alejandro González Celis</span>
-            </h2>
-            <span class="text-animation h-24 text-3xl md:text-7xl text-sky font-bold"></span>
-            <span class="cursor text-sky"></span>
-            <p class="my-4 text-md md:text-lg w-full md:w-1/2 text-justify">Mi enfoque principal es crear interfaces de usuario intuitivas y atractivas que proporcionen una gran experiencia de usuario.</p>
-            <div>
-              <a href="mailto:alegonzalez1993@gmail.com" target="_blank">
-                <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10"><i class="fa-solid fa-envelope text-xl w-3 h-4 mr-2"></i>Conversemos</button>
-              </a>
-              <a href="https://docs.google.com/document/d/1yiGckjWc95L1C_wBRVdcJMHJd0609pvh_RxGSkLp-bc/edit?usp=sharing" target="_blank">
-                <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10">
-                  <i class="fa-solid fa-file-arrow-down text-xl w-3 h-4 mr-2"></i>Currículum</button>
-              </a>
-            </div>
-            
-
-    </header>
-
+    <header class="container w-full px-5 mx-auto flex flex-col justify-between text-white">
+      <div class="mt-10">
+        <h1 class="mb-4 text-2xl md:text-6xl font-medium">Hola</h1>
+        <h2 class="mb-4 text-2xl md:text-6xl font-medium">Soy  <span class="font-semibold">Alejandro González Celis</span>
+        </h2>
+        <span class="text-animation h-24 text-3xl md:text-7xl text-sky font-bold"></span>
+        <span class="cursor text-sky"></span>
+        <p class="my-4 text-md md:text-lg w-full md:w-1/2 text-justify font-semibold">Mi enfoque principal es crear interfaces de usuario intuitivas y atractivas que proporcionen una gran experiencia de usuario.</p>
+        <div>
+          <a href="mailto:alegonzalez1993@gmail.com" target="_blank">
+            <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10"><i class="fa-solid fa-envelope text-xl w-3 h-4 mr-2"></i>Conversemos</button>
+          </a>
+          <a href="https://drive.google.com/file/d/1bbCNYKOJMFidcjX0-iFTn4_Eh3vVINqf/view?usp=sharing" target="_blank">
+            <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10">
+              <i class="fa-solid fa-file-arrow-down text-xl w-3 h-4 mr-2"></i>Currículum</button>
+            </a>
+          </div>
+        </div>
+        </header>
+        
    <!-- Icon Scroll -->
     <section class="example example--2 flex justify-center mt-6">
       <span class="scroll-icon mb-10">
