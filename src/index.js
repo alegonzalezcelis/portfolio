@@ -1,4 +1,4 @@
-const typedTextSpan = document.querySelector(".nombre");
+const typedTextSpan = document.querySelector(".text-animation");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["Desarrollador FrontEnd", "Ingeniero Informático"];
