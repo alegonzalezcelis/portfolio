@@ -1056,6 +1056,14 @@ input:checked + .toggle-bg {
   top: 0px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1074,6 +1082,22 @@ input:checked + .toggle-bg {
 
 .z-50 {
   z-index: 50;
+}
+
+.-z-50 {
+  z-index: -50;
+}
+
+.-z-30 {
+  z-index: -30;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
 }
 
 .mx-auto {
@@ -1198,6 +1222,30 @@ input:checked + .toggle-bg {
   height: 6rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1225,6 +1273,38 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-sm {
@@ -1337,6 +1417,10 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1353,6 +1437,10 @@ input:checked + .toggle-bg {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-l-lg {
@@ -1451,8 +1539,23 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-sky {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 168 232 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-1 {
@@ -1477,6 +1580,10 @@ input:checked + .toggle-bg {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-2 {
@@ -1509,6 +1616,11 @@ input:checked + .toggle-bg {
   padding-bottom: 0.75rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1521,8 +1633,20 @@ input:checked + .toggle-bg {
   padding-top: 0.5rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -1548,6 +1672,21 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -1624,6 +1763,11 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-neutral {
+  --tw-text-opacity: 1;
+  color: rgb(0 23 31 / var(--tw-text-opacity));
 }
 
 .underline-offset-8 {
@@ -1773,9 +1917,18 @@ input:checked + .toggle-bg {
   border-radius: 1em;
 }
 
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.hover\:border-neutral:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 23 31 / var(--tw-border-opacity));
 }
 
 .hover\:bg-blue-800:hover {
@@ -1821,6 +1974,11 @@ input:checked + .toggle-bg {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-neutral:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 23 31 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1962,6 +2120,10 @@ input:checked + .toggle-bg {
     margin-top: 0px;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1970,12 +2132,24 @@ input:checked + .toggle-bg {
     display: none;
   }
 
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:flex-row {
@@ -2003,6 +2177,35 @@ input:checked + .toggle-bg {
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .md\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .md\:hover\:bg-transparent:hover {
