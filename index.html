@@ -26,7 +26,7 @@
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="flex flex-col p-4 mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 text-md font-semibold md:bg-transparent">
+      <ul class="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 text-sm font-semibold md:bg-transparent">
         <li>
           <a
             href="#"
@@ -68,17 +68,17 @@
   </div>
 </nav>
 
-    <header class="container w-full h-screen px-5 md:px-0 mx-auto flex flex-col justify-between text-white">
+    <header class="container w-full px-5 md:px-0 mx-auto flex flex-col justify-between text-white">
       <div class="mt-10">
         <h1 class="mb-4 mt-10 text-2xl md:text-6xl font-medium">Hola</h1>
         <h2 class="mb-4 text-2xl md:text-6xl font-medium">Soy  <span class="font-semibold">Alejandro González Celis</span>
         </h2>
-        <span class="text-animation text-3xl md:text-7xl text-sky font-bold"></span>
+        <span class="text-animation text-2xl md:text-7xl text-sky font-bold"></span>
         <span class="cursor text-sky"></span>
         <p class="my-4 text-md md:text-lg w-full md:w-1/2 text-justify font-semibold">Mi enfoque principal es crear interfaces de usuario intuitivas y atractivas que proporcionen una gran experiencia de usuario.</p>
-        <div id="link-acerca-de-mi" class="h-32 flex justify-between">
-          <a href="https://wa.me/+56966192139" target="_blank">
-            <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 md:mt-10"><i class="fa-brands fa-whatsapp text-xl w-3 h-4 mr-2"></i>Conversemos</button>
+        <div class="h-24 flex">
+          <a href="mailto:alegonzalez1993@gmail.com" target="_blank">
+            <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 md:mt-10"><i class="fa-solid fa-envelope text-xl w-3 h-4 mr-2"></i>Conversemos</button>
           </a>
           <a href="https://drive.google.com/file/d/1bbCNYKOJMFidcjX0-iFTn4_Eh3vVINqf/view?usp=sharing" target="_blank">
             <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 md:mt-10">
@@ -113,13 +113,31 @@
     <section id="habilidades" class="container text-white mx-auto">
       <div class="flex flex-col items-center mt-10">
         <h2 class="text-4xl text-center font-semibold mb-10">Habilidades</h2>
-        <div class="text-4xl md:text-6xl flex flex-wrap gap-6 justify-center w-full pb-10 sm:w-3/4 sm:justify-between">
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3-alt"></i>
-          <i class="fa-brands fa-square-js"></i>
-          <i class="fa-brands fa-sass"></i>
-          <i class="fa-brands fa-vuejs"></i>
-          <i class="fa-brands fa-bootstrap"></i>
+        <div class="text-4xl md:text-6xl flex flex-wrap gap-6 justify-center w-full pb-10 sm:w-3/4 sm:justify-between gap-5">
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">HTML 5</p>
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">CSS 3</p>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">JavaScript</p>
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">SASS</p>
+            <i class="fa-brands fa-sass"></i>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">Vue</p>
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xl mb-4 font-semibold">Bootstrap</p>
+            <i class="fa-brands fa-bootstrap"></i>
+          </div>
         </div>
       </div>
     </section>
@@ -153,7 +171,7 @@
           <a href="https://alegonzalezcelis.github.io/Cachipun/" target="_blank" rel="noopener noreferrer">
             <img class="w-full object-fit" src="dist/img/projects/cachipun.png" alt="Cachipun contra la máquina">
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Cachipún contra la máquina</div>
+              <div class="font-bold text-xl mb-2">Cachipún</div>
               <p class="text-gray-700 text-base">
                 Este juego permite al clásico piedra papel o tijeras, también conocido como Cachipún, en donde podremos seleccionar la cantidad de turnos a jugar y el puntaje obtenido.
               </p>
@@ -167,7 +185,7 @@
     
         <!--Card 3-->
         <div class="rounded overflow-hidden shadow-lg">
-          <a href="https://alegonzalezcelis.github.io/Viajes-Chile/#" target="_blank" rel="noopener noreferrer">
+          <a href="https://alegonzalezcelis.github.io/FourCards/" target="_blank" rel="noopener noreferrer">
             <img class="w-full" src="dist/img/projects/four-cards.png" alt="Forest">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">Four Cards</div>
