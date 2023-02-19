@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,69 +15,52 @@
     <title>Alegoncelis</title>
   </head>
   <body class="bg-neutral">
-    <nav class="px-5 pt-6 sm:px-4 fixed w-full h-20 z-20 top-0 left-0 bg-neutral flex">
-      <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="#" class="flex items-center text-white text-2xl font-bold">
-          <span class="text-sky font-bold"><</span>Alegoncelis<span class="text-sky font-bold">/></span>
-        </a>
-        <button
-          data-collapse-toggle="navbar-solid-bg"
-          type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-50 rounded-lg md:hidden hover:bg-sky focus:outline-none focus:ring-2 focus:ring-cyan
-          aria-controls="navbar-solid-bg"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Abrir menú</span>
-          <svg
-            class="w-7 h-7"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+    
+<nav class="bg-neutral px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+  <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <a href="#" class="flex items-center text-white text-2xl font-bold">
+      <span class="text-sky font-bold"><</span>Alegoncelis<span class="text-sky font-bold">/></span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-50 rounded-lg md:hidden hover:bg-sky focus:outline-none focus:ring-2 focus:ring-cyan" aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="flex flex-col p-4 mt-4 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 text-md font-semibold md:bg-transparent">
+        <li>
+          <a
+            href="#"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
+            aria-current="page"
+            >Inicio</a
           >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-          <ul
-            class="flex flex-col mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 text-md font-semibold md:border-0 md:bg-transparent">
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
-                aria-current="page"
-                >Inicio</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
-                >Acerca de Mí</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
-                >Proyectos</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
+            >Acerca de Mí</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
+            >Proyectos</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     <header class="container w-full h-screen px-5 md:px-0 mx-auto flex flex-col justify-between text-white">
       <div class="mt-10">
         <h1 class="mb-4 mt-10 text-2xl md:text-6xl font-medium">Hola</h1>
@@ -86,7 +69,7 @@
         <span class="text-animation h-24 text-3xl md:text-7xl text-sky font-bold"></span>
         <span class="cursor text-sky"></span>
         <p class="my-4 text-md md:text-lg w-full md:w-1/2 text-justify font-semibold">Mi enfoque principal es crear interfaces de usuario intuitivas y atractivas que proporcionen una gran experiencia de usuario.</p>
-        <div>
+        <div id="link-acerca-de-mi" class="h-32">
           <a href="https://wa.me/+56966192139" target="_blank">
             <button type="button" class="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 mt-10"><i class="fa-brands fa-whatsapp text-xl w-3 h-4 mr-2"></i>Conversemos</button>
           </a>
@@ -99,14 +82,14 @@
         </header>
 
     <section class="mx-auto px-5 bg-gray-100 text-neutral flex flex-wrap justify-between">
-      <h2 class="text-4xl text-center font-semibold mb-10 w-full">Acerca de mí</h2> 
+      <h2 class="text-4xl text-center font-semibold mt-10 mb-10 w-full">Acerca de mí</h2> 
       <div class="w-full md:w-1/2 flex justify-center">
         <img class="h-64 w-48 md:h-96 md:w-80 md:pl-6 mb-4 md:mb-0" src="dist/img/alejandro-gonzalez-celis.png" alt="Foto de Alejandro Gonźalez Celis">
       </div>
       <div class="container w-full md:w-1/2 md:mr-5">
         <p class="text-md md:text-lg text-justify">Como profesional, me apasiona el diseño web y la programación, y estoy comprometido en aprender constantemente nuevas tecnologías y habilidades. Me siento más motivado cuando trabajo en proyectos desafiantes que me permiten aplicar mis habilidades y conocimientos en la creación de soluciones creativas para los usuarios.</p>
         <p class="text-md md:text-lg text-justify mt-4">Durante mi carrera he trabajado en diversos proyectos de desarrollo web, incluyendo la creación de sitios web y aplicaciones móviles utilizando HTML, CSS, JavaScript y diferentes frameworks como React, Angular y Vue. Además, tengo experiencia en diseño gráfico, lo que me permite crear diseños atractivos y funcionales para interfaces de usuario.</p>
-        <div class="flex justify-center gap-10 mt-4">
+        <div class="flex justify-center gap-10 mt-10 mb-10">
           <a href="https://www.linkedin.com/in/alejandro-gonzalez-celis/" class="w-16 h-16 rounded-full bg-neutral text-white text-3xl flex items-center justify-center hover:bg-white hover:text-neutral hover:border-2 hover:border-neutral">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
