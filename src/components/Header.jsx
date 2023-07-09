@@ -11,19 +11,10 @@ const Header = () => {
           </h2>
 
           <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Ingeniero Informático")
-                .callFunction(() => {
-                  console.log("String typed out!");
-                })
-                .pauseFor(2500)
-                .deleteAll()
-                .typeString("Desarrollador FrontEnd")
-                .callFunction(() => {
-                  console.log("String typed out!");
-                })
-                .start();
+            options={{
+              strings: ['Desarrollador Front End', 'Ingeniero Informático'],
+              autoStart: true,
+              loop: true,
             }}
           />
 
