@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 const Nav = () => {
   //   const button = document.querySelector("#menu-button");
   //   const menu = document.querySelector("#menu");
@@ -5,6 +7,9 @@ const Nav = () => {
   //   button.ader("click", () => {
   //     menu.classList.toggle("hidden");dEventListen
   //   });
+
+  const menuButton = useRef(null)
+  const menu = useRef(null)
   return (
     <>
       <nav className="bg-midnight px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">

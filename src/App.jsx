@@ -5,8 +5,7 @@ import Header from './components/Header'
 function App() {
   return (
     <>
-      {/* Componente Nav */}
-      <Nav />
+      <Nav/>
       <Header />
     </>
   )
