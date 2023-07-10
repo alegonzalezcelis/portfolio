@@ -3,47 +3,40 @@ import Typewriter from "typewriter-effect";
 const Header = () => {
   return (
     <>
-      <header className="container w-full px-5 md:px-0 mx-auto flex flex-col justify-between text-white">
-        <div className="mt-10">
-          <h1 className="mb-4 mt-10 text-2xl md:text-6xl font-medium">Hola</h1>
-          <h2 className="mb-4 text-2xl md:text-6xl font-medium">
-            Soy <span className="font-bold">Alejandro González Celis</span>
-          </h2>
-          <div className="text-2xl md:text-7xl text-sky font-bold">
+      <header className="md:px-0 mx-auto mt-10 flex-auto flex-col justify-between text-white">
+        <div className="mt-10 text-left">
+          <h1 className="mb-4 text-4xl md:text-6xl">
+            Alejandro González Celis
+          </h1>
+          <div className="text-3xl md:text-7xl text-sky font-bold">
             <Typewriter
               options={{
                 strings: ["Desarrollador Front End", "Ingeniero Informático"],
+                delay: 75,
                 autoStart: true,
                 loop: true,
               }}
             />
           </div>
 
-          <p className="my-4 text-md md:text-lg w-full md:w-1/2 text-justify font-semibold">
+          <p className="my-4 text-md md:text-lg w-full md:w-1/2 text-justify">
             Mi enfoque principal es crear interfaces de usuario intuitivas y
             atractivas que proporcionen una gran experiencia de usuario.
           </p>
-          <div className="h-24 flex">
-            <a href="mailto:alegonzalez1993@gmail.com" target="_blank">
-              <button
-                type="button"
-                className="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 md:mt-10"
-              >
-                <i className="fa-solid fa-envelope text-xl w-3 h-4 mr-2"></i>
-                Conversemos
-              </button>
+          <div className="flex justify-start gap-5 text-3xl">
+            <a
+              href="https://www.linkedin.com/in/alejandro-gonzalez-celis/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a
-              href="https://drive.google.com/file/d/1bbCNYKOJMFidcjX0-iFTn4_Eh3vVINqf/view?usp=sharing"
+              href="https://github.com/alegonzalezcelis"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <button
-                type="button"
-                className="text-white hover:text-white border border-sky hover:bg-cyan focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 md:mt-10"
-              >
-                <i className="fa-solid fa-file-arrow-down text-xl w-3 h-4 mr-2"></i>
-                Currículum
-              </button>
+              <i class="fa-brands fa-github"></i>
             </a>
           </div>
         </div>
