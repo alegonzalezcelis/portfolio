@@ -1,24 +1,13 @@
 import { useRef } from "react";
-import "flowbite/dist/flowbite.min.js";
+import 'flowbite/dist/flowbite.min.js';
 
 const Nav = () => {
-  //   const button = document.querySelector("#menu-button");
-  //   const menu = document.querySelector("#menu");
-
-  //   button.ader("click", () => {
-  //     menu.classList.toggle("hidden");dEventListen
-  //   });
-
-  const menuButton = useRef(null);
-  const menu = useRef(null);
+  
   return (
     <>
       <nav className="bg-midnight px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <a
-            href="#"
-            className="flex items-center text-white text-2xl font-bold"
-          >
+          <a href="#" className="flex items-center text-white text-2xl font-bold">
             <span className="text-white font-bold">Alegoncelis</span>
           </a>
           <button
@@ -45,7 +34,7 @@ const Nav = () => {
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 text-sm font-semibold md:bg-transparent">
-              <li>
+              <li className="">
                 <a
                   href="#"
                   className="block py-2 pl-3 pr-4 text-white rounded hover:bg-cyan md:hover:bg-transparent md:border-0 md:hover:text-sky md:p-0 md:hover:underline underline-offset-8"
@@ -90,6 +79,7 @@ const Nav = () => {
           </div>
         </div>
       </nav>
+
     </>
   );
 };

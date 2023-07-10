@@ -9,14 +9,15 @@ const Header = () => {
           <h2 className="mb-4 text-2xl md:text-6xl font-medium">
             Soy <span className="font-bold">Alejandro González Celis</span>
           </h2>
-
-          <Typewriter
-            options={{
-              strings: ['Desarrollador Front End', 'Ingeniero Informático'],
-              autoStart: true,
-              loop: true,
-            }}
-          />
+          <div className="text-2xl md:text-7xl text-sky font-bold">
+            <Typewriter
+              options={{
+                strings: ["Desarrollador Front End", "Ingeniero Informático"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
 
           <p className="my-4 text-md md:text-lg w-full md:w-1/2 text-justify font-semibold">
             Mi enfoque principal es crear interfaces de usuario intuitivas y
