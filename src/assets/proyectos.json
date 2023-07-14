@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cachipun",
+        "descripcion": "El clásico juego del Piedra, papel y tijeras ",
+        "imagen": "cachipun.png",
+        "tecnologias": [
+            "JavaScript",
+            "Tailwind"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Agencia de viajes Chile",
+        "descripcion": "Landing Page desarrollada en el Bootcamp de Desafío Latam ",
+        "imagen": "viajes-chile.png",
+        "tecnologias": [
+            "Bootstrap",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "FourCards",
+        "descripcion": "Desafío realizado para la plataforma FrontEnd Mentor el cuál buscaba crear un diseño responsivo",
+        "imagen": "four-cards.png",
+        "tecnologias": [
+            "HTML",
+            "CSS"
+        ]
+    }
+]

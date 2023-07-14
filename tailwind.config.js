@@ -8,11 +8,11 @@ export default {
   ],
   theme: {
     colors: {
-      'white': '#FFFFFF',
-      'midnight': '#00171F',
-      'dark': '#003459',
-      'ocean': '#007EA7',
-      'sky': '#00A8E8',
+      'white': '#F8F8F8',
+      'dark': '#141414',
+      'prussian-blue':'#003459',
+      'cerulean':'#007EA7',
+      'picton-blue': '#00A8E8',
     },
     extend: {},
   },
