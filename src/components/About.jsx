@@ -11,9 +11,9 @@ const About = () => {
           <i className="fa-brands fa-github hover:text-picton-blue"></i>
         </div>
         {/* Contenedor del texto */}
-        <div className="grid md:grid-cols-2 gap-4 text-white text-2xl">
-          <p className="p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident enim facere quasi praesentium porro inventore et id. Eius veniam at accusantium delectus expedita similique quaerat!</p>
-          <p className="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit provident, ipsam distinctio autem veritatis commodi libero, nobis optio repudiandae mollitia consectetur facilis ratione tenetur. Ullam.</p>
+        <div className="grid md:grid-cols-2 gap-4 text-white text-lg font-light">
+          <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident enim facere quasi praesentium porro inventore et id. Eius veniam at accusantium delectus expedita similique quaerat!</p>
+          <p className="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit provident, ipsam distinctio autem veritatis commodi libero, nobis optio repudiandae mollitia consectetur facilis ratione tenetur. Ullam.</p>
         </div>
       </section>
     </>
