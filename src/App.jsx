@@ -5,13 +5,13 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Proyecto from "./components/Proyecto";
-import proyectosData from "./assets/proyectos.json"
+import proyectosData from "./assets/proyectos.json";
 
 function App() {
   return (
     <>
+      <Header />
       <div className="flex flex-col mx-5 text-left">
-        <Header />
         <Main />
         <Titulo titulo="Acerca de mí" />
         <About />
@@ -20,7 +20,7 @@ function App() {
         <Titulo titulo="Proyectos" />
         {/* Sección de proyectos */}
         <section className="flex flex-col gap-y-4">
-          <Proyecto proyectos={proyectosData}/>
+          <Proyecto proyectos={proyectosData} />
         </section>
       </div>
     </>
