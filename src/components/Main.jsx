@@ -21,15 +21,15 @@ const Main = () => {
             }}
           />
         </div>
-        <p className="mx-auto text-white text-lg my-5 md:w-3/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p className="mx-auto text-white text-xl my-5 md:w-3/4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <div className="flex mt-2 mx-0">
           <a
             href="mailto:ghkarim460@gmail.com"
-            className="text-white text-lg border-2 py-2 px-5 my-auto rounded-full hover:border-picton-blue"
+            className="text-white text-sm border-2 py-2 px-5 my-auto rounded-full hover:border-picton-blue"
           >
             CONTÁCTAME
           </a>
-          <a href="#" className="text-white text-2xl p-4 hover:underline hover:underline-offset-8">
+          <a href="#" className="text-white text-sm p-4 hover:underline hover:underline-offset-8">
             DESCARGA MI CV
             <i className="fa-solid fa-circle-down ml-2 hover:border-picton-blue"></i>
           </a>

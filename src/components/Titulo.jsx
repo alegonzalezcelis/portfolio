@@ -1,7 +1,7 @@
 const Titulo = ({titulo}) => {
   return (
     <>
-      <h2 className="text-white text-3xl my-8 font-semibold">
+      <h2 className="text-white text-5xl my-8 font-semibold">
         {titulo}
       </h2>
     </>
